@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+
+    <title>Survey form for LEDP</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+  </head>
+  <!-- ************ body start ********** -->
+  <body>
+
+    <div id="main">
+    <!------------ bg--------- -->
+    <div class="container">
+      <div class="row text-center pt-5 text-white ">
+        <div class="col-sm-12">
+          <h1 class="hh gradient-text md-3">LEDP Survey Form</h1>
+          <!-- <p class="pp gradient-text">Thank You For Give Me Such A Great Job</p> -->
+        </div>
+      </div>
+    </div>
+
+
+    <!--******************************************** form ************************** -->
+
+
+    <div class="container" id="formbody">
+      <div class="row">
+        <div class="col-md-2 col-sm-2 col-lg-2 "></div>
+<!-- main Form -->
+        <div class="col-md-8 col-sm-8 col-lg-8 ">
+
+          <form>
+    <!-- name -->
+            <div class="md-3 ">
+              <label for="validationCustom01" class="form-label">Name</label>
+              <input type="text" class="form-control" id="validationCustom01" value="" placeholder="Enter Your Name" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+
+    <!-- Email -->
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your E-mail Address" required>
+              
+            </div>
+
+    <!-- Age -->
+            <div class="mb-3">
+              <label for="exampleInputNumber" class="form-label">Age (Optional)</label>
+              <input type="number" class="form-control" id="exampleInputNumber" aria-describedby="emailHelp"
+                placeholder="Enter your E-mail Address">
+              
+            </div>
+
+    <!-- Which option Best Describes your Current role  -->
+              <div class="md-3">
+                <label for="validationCustom04" class="form-label">Which option Best Describes your Current role?</label>
+                <select class="form-select" id="validationCustom04" required>
+                  <option selected disabled value="">Select current role</oseoption>
+
+                <option>I am A Good Boy </option>
+                <option>I am the best</option>
+                <option>I like Programming</option>
+                <option>I am a web designer</option>
+                <option>I am a web Deceloper</option>
+                </select>
+                <div class="invalid-feedback">
+                  Please select a valid state.
+                </div>
+              </div>
+
+    <!-- Pasword -->
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" required>
+            </div>
+
+    <!-- radious  -->
+            <div class="md-3">
+              <label for="exampleInputRadio" class="form-label">
+                Would you recommend LEDP to a Friend?
+              </label>
+            </div>
+                    <!-- 1 -->
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Definitely
+              </label>
+            </div>
+                    <!-- 2 -->
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Maybe
+              </label>
+            </div>
+                    <!-- 3 -->
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Not Sure
+              </label>
+            </div>
+<br>
+  <!-- What is Your Favorite feature of LEDP? -->
+            <div class="md-3">
+              <label for="validationCustom04" class="form-label">What is Your Favorite feature of LEDP?</label>
+              <select class="form-select" id="validationCustom04" required>
+                <option selected disabled value="">Select on option</oseoption>
+            
+                <option> Class </option>
+                <option>Homework</option>
+                <option>Teacher</option>
+                <option>Students</option>
+                <option>Everything</option>
+              </select>
+              <div class="invalid-feedback">
+                Please select a valid state.
+              </div>
+            </div>
+
+            <!--  -->
+<br>
+
+   <!--chackbox //  What is Your Favorite feature of LEDP? -->
+            <div class="md-3">
+              <label for="exampleInputRadio" class="form-label">
+                What would you like to see improved ? ( click all that apply )
+              </label>
+            </div>
+
+            <!-- 1 -->
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Front-end Projects</label>
+            </div>
+            <!-- 2-->
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Back-end Projects</label>
+            </div>
+            <!-- 3 -->
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Data Visualization</label>
+            </div>
+            <!-- 4 -->
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Challenges</label>
+            </div>
+            <!-- 5 -->
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Open Source Community</label>
+            </div>
+            <!-- 6 -->
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Gitter Help Rooms</label>
+            </div>
+            <!-- 7 -->
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Videos</label>
+            </div>
+            <!-- 8 -->
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">City Meetups</label>
+            </div>
+            <!-- 9 -->
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Wiki</label>
+            </div>
+            <!-- 10 -->
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Forum</label>
+            </div>
+            <!-- 11 -->
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Additional Courses</label>
+            </div>
+<br>
+   <!-- Massages -->
+            <div class="md-3">
+              
+              <div class="form-floating">
+                <label for="floatingTextarea2">Any Comments or Suggestions? </label>
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                  style="height: 100px"></textarea>
+              </div>
+             
+
+
+            </div>
+  <br>
+
+   <!-- Submit Button -->
+            <button type="submit" class="btn btn-success">Submit</button>
+
+          </form>
+        </div>
+<!-- main form end -->
+        <div class="col-md-2 col-sm-2 col-lg-2 "></div>
+      </div>
+    </div>
+
+</div>
+
+    <!-- Optional JavaScript -->
+    <!-- Popper.js first, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+
+    <span class="gradient-text brand">Manik Hossain//</span>
+    <span>07 march 2021</span>
+  </body>
+</html>
